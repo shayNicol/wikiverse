@@ -1,9 +1,13 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import { SinglePage } from "./SinglePage"
 
-export const Page = (props) => {
+import apiURL from '../api';
 
-  return <>
-    <h3>{props.page.title}</h3>
-  </>
+export const Page = ({page,fetchPage}) => {
+  console.log(page)
+    return (<>
+    <h3 onClick={() => fetchPage (page.slug)}>{page.title}</h3>
+    {}
+  </>)
 } 
 	
