@@ -7,7 +7,7 @@ return <>
 <input placeholder='Title'></input>  
     <input placeholder='Article Name'></input>
     <input placeholder='AutherContent'></input>
-
+    
 
 
 
